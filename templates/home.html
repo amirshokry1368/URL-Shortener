@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+<body>
+  <div class="col-8 mx-auto ">
+    <form method="post"> 
+        <div class="mb-3">
+            <label  class="form-label">Long Link</label>
+            <input type="text" class="form-control" id="email" name="homeLongLink" placeholder="Paste Your Link">
+        </div>
+        <div class="mb-3 text-center">
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+  </div>
+      <div class="mb-3 col-8 mx-auto">
+        <input type="text" class="form-control" value="{{short}}" name="homeShortLink">
+      </div>
+</body>
+</html>
